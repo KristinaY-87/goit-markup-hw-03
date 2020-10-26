@@ -137,7 +137,8 @@ h3 {
 /* hero */
 
 .hero {
-  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--dark-bg);
   text-align: center;
 }
@@ -300,16 +301,10 @@ h3 {
    border-bottom: 1px solid #ECECEC;
  }
 
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .filter-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 }
@@ -336,11 +331,6 @@ h3 {
   margin-right: 8px;
 }
 
-.portfolio-container {
-  display: flex;
-  align-items: center;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -352,13 +342,11 @@ h3 {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100%/3 - 30px);
-  padding-bottom: 20px;
   background: var(--white);
   border: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -372,7 +360,6 @@ h3 {
   line-height: 1.87;
 }
 
-.portfolio-item .title,
-.portfolio-item .text {
-  padding-left: 24px;
+.portfolio-item-text {
+  padding: 20px 24px;
 }
